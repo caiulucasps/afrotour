@@ -1,0 +1,19 @@
+@import '../styles/colors';
+
+.noContent {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  span {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: $gray-600;
+  }
+}

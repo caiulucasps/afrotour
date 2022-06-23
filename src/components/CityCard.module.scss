@@ -1,0 +1,35 @@
+@import '../styles/colors';
+
+.cityCard {
+  background-color: $white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 17rem;
+
+  img {
+    height: 6.25rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  >div {
+    padding: 1rem;
+
+    h4 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
+    .cityInfo {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-size: 0.75rem;
+        color: $gray-700;
+      }
+    }
+  }
+}

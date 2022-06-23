@@ -1,0 +1,36 @@
+@import '../styles/colors';
+
+.footer {
+  background-color: $green-700;
+  color: $white;
+  padding: 3.25rem;
+
+  >div {
+    width: 73rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+      display: flex;
+      gap: 1rem;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 1.25rem;
+
+        transition: 0.2s;
+
+        &:hover {
+          background-color: $green-600;
+        }
+      }
+    }
+  }
+}
